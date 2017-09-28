@@ -3,6 +3,7 @@
 //DUC LINH - haanhduclinh.com
 //BASIC FACEBOOK
 //////////////////////////////////////////////
+ini_set('display_errors', 'on');
 session_start();
 use Facebook\Facebook;
 // require Facebook PHP SDK
