@@ -13,8 +13,8 @@ require_once 'Facebook/autoload.php';
 // see: https://developers.facebook.com/docs/php/gettingstarted/#install
  
 $fb = new Facebook([
-    'app_id' => '', // APP ID
-    'app_secret' => '',//SECRET
+    'app_id' => '459792177717990', // APP ID
+    'app_secret' => '18199cc2064ec54bba71e776941247b1',//SECRET
     'default_graph_version' => 'v2.5',
 ]);
 //$appsecret_proof= hash_hmac('sha256', $access_token, $app_secret);
