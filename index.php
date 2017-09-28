@@ -20,7 +20,7 @@ $fb = new Facebook([
 //$appsecret_proof= hash_hmac('sha256', $access_token, $app_secret);
 $helper = $fb->getRedirectLoginHelper();
 $permissions = ['email', 'user_likes','publish_actions','user_photos','user_relationships','user_birthday']; // optional
-$loginUrl = $helper->getLoginUrl('https://YOUR_URL/callback.php', $permissions);//Change YOUR_URL to your URL CALLBACK FILE
+$loginUrl = $helper->getLoginUrl('https://qoffice.herokuapp.com/callback.php', $permissions);//Change YOUR_URL to your URL CALLBACK FILE
 
 echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
 
